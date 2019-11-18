@@ -13,6 +13,11 @@ body {
   padding: 10%;
   margin: 2%;
 }
+.navbar {
+  background-color: purple;
+  height: 50px;
+  width: 100%;
+}
 .mainbox{
   padding: 1%;
   height: 800px;
@@ -37,17 +42,18 @@ body {
 
   width: 34%;
   background: orange;
+
 }
 .dx {
 
   width: 33%;
   background: pink;
 }
+.widget {
+  margin: 5%;
+}
 
 .footer {
   height: 100px;
   background: blue;
-}
-.widget {
-  width: 20px;
 }
