@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: beige;
+}
+.header {
+  height: 50vh;
+
+  background: red;
+  padding: 10%;
+  margin: 2%;
+}
+.mainbox{
+  padding: 1%;
+  height: 800px;
+  background-color: lightblue;
+  margin-bottom: 24px;
+}
+.mainbox::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box {
+  float: left;
+}
+.sx {
+
+  width: 33%;
+  background: grey;
+}
+.ch {
+
+  width: 34%;
+  background: orange;
+}
+.dx {
+
+  width: 33%;
+  background: pink;
+}
+
+.footer {
+  height: 100px;
+  background: blue;
+}
+.widget {
+  width: 20px;
+}
